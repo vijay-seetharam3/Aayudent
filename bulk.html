@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bulk Orders & Request a Quote — AAYUDENT</title>
+  <meta name="description" content="Order AAYUDENT bamboo toothbrushes and tongue cleaners in bulk for business, events or gifting. Get bulk pricing and delivery information." />
+  <meta property="og:title" content="Bulk Orders & Request a Quote — AAYUDENT" />
+  <meta property="og:description" content="Bulk orders, competitive pricing and Pan-India and global shipping." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" href="Aayudent.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <p class="ribbon">Bamboo Oral Care · Pan-India & Export</p>
+    <div class="header-inner scrolled">
+      <div class="container">
+        <div class="nav-bar glass-strong">
+          <a href="index.html" class="nav-brand">
+            <img src="assets/aayudent-logo.jpg" alt="AAYUDENT logo" />
+            <span class="nav-brand-text">
+              <span class="nav-brand-name">AAYUDENT</span>
+              <span class="nav-brand-tagline">Natural Smile. Sustainable Care.</span>
+            </span>
+          </a>
+          <div class="desktop-actions">
+            <a href="bulk.html" class="btn btn-primary">Request Quote</a>
+          </div>
+          <div class="mobile-actions">
+            <button type="button" class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+              <span class="hamburger"><span></span><span></span><span></span></span>
+            </button>
+          </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+          <nav class="glass-strong" aria-label="Mobile">
+            <a href="index.html">Home</a>
+            <a href="index.html#product">Products</a>
+            <a href="index.html#pricing">Pricing</a>
+            <a href="index.html#how-to-order">How to Order</a>
+            <a href="bulk.html">Bulk Orders</a>
+            <a href="index.html#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <div class="container">
+      <div class="reveal">
+        <p class="eyebrow">AAYUDENT</p>
+        <h1 class="page-title" style="margin-top:1rem;">Bulk Orders</h1>
+        <p class="section-body" style="max-width:36rem; text-align:left; margin-top:1rem;">Order eco-friendly products in bulk for your business, events or gifting needs. Sustainable • Bulk Supply • Pan-India / Global Shipping.</p>
+      </div>
+
+      <div class="bulk-grid">
+        <ul class="bulk-points" style="list-style:none; padding:0; margin:0;">
+          <li class="bulk-point glass reveal"><h2 style="font-size:0.875rem; font-weight:700; letter-spacing:0.025em; text-transform:uppercase; color:var(--foreground);">Bulk Discounts</h2><p style="margin-top:0.5rem; font-size:0.875rem; line-height:1.625; color:var(--muted-foreground);">Get better prices for large orders.</p></li>
+          <li class="bulk-point glass reveal" style="transition-delay:80ms"><h2 style="font-size:0.875rem; font-weight:700; letter-spacing:0.025em; text-transform:uppercase; color:var(--foreground);">Payment</h2><p style="margin-top:0.5rem; font-size:0.875rem; line-height:1.625; color:var(--muted-foreground);">Advance payment is needed to confirm your order.</p></li>
+          <li class="bulk-point glass reveal" style="transition-delay:160ms"><h2 style="font-size:0.875rem; font-weight:700; letter-spacing:0.025em; text-transform:uppercase; color:var(--foreground);">Delivery</h2><p style="margin-top:0.5rem; font-size:0.875rem; line-height:1.625; color:var(--muted-foreground);">We'll share the delivery time based on your quantity and location.</p></li>
+          <li class="bulk-point glass reveal" style="transition-delay:400ms"><h2 style="font-size:0.875rem; font-weight:700; letter-spacing:0.025em; text-transform:uppercase; color:var(--foreground);">Returns</h2><p style="margin-top:0.5rem; font-size:0.875rem; line-height:1.625; color:var(--muted-foreground);">Contact our support team and we'll help you out with your concern.</p></li>
+        </ul>
+
+        <div class="reveal" style="transition-delay:120ms">
+          <div class="bulk-form glass-strong">
+            <div id="bulkSuccess" style="display:none; text-align:center;">
+              <div class="check-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <h2 style="margin-top:1.5rem; font-size:1.5rem; font-weight:700; color:var(--foreground);">Request sent</h2>
+              <p style="margin-top:0.75rem; font-size:0.875rem; line-height:1.625; color:var(--muted-foreground);"> Thanks <span id="bulkFirstName">there</span> — we'll get back to you at<span id="bulkEmail">your email</span>with pricing and delivery time. For a faster reply, message us on WhatsApp.
+              </p>              
+              <a href="https://wa.me/917708783911?text=Hi%20AAYUDENT%2C%20I%27m%20interested%20in%20your%20bamboo%20oral%20care%20products.%20I%27d%20like%20to%20enquire%20about%20bulk%20pricing%2C%20MOQ%2C%20and%20delivery%20details." target="_blank" rel="noopener noreferrer" class="btn btn-primary ripple-host" style="margin-top:1.75rem;">WhatsApp us</a>
+            </div>
+            <form id="bulkForm" novalidate>
+              <h2>Request a bulk quote</h2>
+              <div class="field"><span>Full Name</span><input type="text" id="bulkName" placeholder="Enter your full name" /><span class="error-msg" id="bulkNameError"></span></div>
+              <div class="field"><span>Business Email</span><input type="email" id="bulkEmailInput" placeholder="Enter your email" /><span class="error-msg" id="bulkEmailError"></span></div>
+              <div class="field"><span>Product Name / Category</span><input type="text" id="bulkProduct" placeholder="e.g. Bamboo Toothbrush, Tongue Cleaner" /><span class="error-msg" id="bulkProductError"></span></div>
+              <div class="field"><span>Quantity Required</span><input type="text" id="bulkQty" inputmode="numeric" placeholder="Enter quantity" /><span class="error-msg" id="bulkQtyError"></span></div>
+              <div class="field"><span>Additional Notes (optional)</span><textarea id="bulkPackaging" placeholder="Tell us anything else about your order or delivery requirements"></textarea></div>
+              <button type="submit" class="btn btn-primary ripple-host" style="width:100%; justify-content:center; padding:1rem 0;">Submit Request</button>
+              <p style="text-align:center; font-size:0.75rem; color:var(--muted-foreground);">Or email aayudentbamboo@gmail.com</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <a href="https://wa.me/917708783911" target="_blank" rel="noopener noreferrer" class="whatsapp-fab" id="whatsappFab" aria-label="Chat with AAYUDENT on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.97L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.09c-.24.68-1.4 1.3-1.93 1.35-.53.06-1.03.08-1.6-.1-.37-.11-.85-.27-1.46-.53-2.58-1.11-4.26-3.71-4.39-3.88-.13-.17-1.04-1.38-1.04-2.64 0-1.25.66-1.87.89-2.13.24-.26.52-.32.69-.32.17 0 .35 0 .5.01.16.01.38-.06.59.45.21.51.73 1.77.79 1.9.06.13.1.28.02.45-.09.17-.13.28-.26.43-.13.15-.27.34-.39.45-.13.13-.26.27-.11.53.15.26.66 1.09 1.42 1.77.98.87 1.8 1.14 2.06 1.27.26.13.41.11.56-.07.15-.17.65-.75.82-1.01.17-.26.35-.21.59-.13.24.09 1.5.71 1.76.84.26.13.43.19.5.3.06.11.06.64-.18 1.32Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
